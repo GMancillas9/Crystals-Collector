@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Assignment 3: Unit-4-Game Crystal's Collector</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <header>Crystals Collector!</header>
+
+    <div class="rulesBox">
+        <p>You will be given a random number at the start of the game.
+            There are four crystals below.
+            By clicking on a crystal you will add a specific amount of points to your total score.
+            You win the game by matching your total score to the random number, you lose the game if your total
+            score goes above the random number
+            The value of each crystal is hidden from you until you click on it.
+            Each time when the game starts, the game will change the values of each crystal.
+        </p>
+    </div>
+
+    <div id="numBox">
+        <h1>39</h1>
+    </div>
+
+    <div id="counterBox">
+        <h4>Wins:<span id="numWins"></span></h4>
+        <h4>Losses:<span id="numLosses"></span></h4>
+    </div>
+
+    <div class="row" id="crysBox">
+        <div class="col-md-3" id="crys1">
+            <button><img src="assets/images/blue.jpg" style="width:100px;height:100px;"></button>
+        </div>
+        <div class="col-md-3" id="crys2">
+            <button> <img src="assets/images/pink.jpg" style="width:100px;height:100px;"></button>
+        </div>
+        <div class="col-md-3" id="crys3">
+            <button><img src="assets/images/purple.jpeg" style="width:100px;height:100px;"></button>
+        </div>
+
+        <div class="col-md-3" id="crys4">
+            <button><img src="assets/images/technicolor.jpg" style="width:100px;height:100px;"></button>
+        </div>
+
+        <div id="scoreBox">
+            <h3>Your total score is:</h3>
+        </div>
+
+        <div id="pointsBox">
+            0
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+        <script src="assets/javascript/games.js"></script>
+
+</body>
+
+</html>

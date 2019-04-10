@@ -1,0 +1,65 @@
+
+body {
+    font-family: cursive;
+    font-size: 18px;
+    background-color: lightgrey;
+}
+
+header {
+    color: white;
+    background-color: peru;
+    text-align: center;
+    font-size: 30px;
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+}
+
+#rulesBox { 
+    color: green;
+    background-color: antiquewhite;  
+    width: 50%;
+}
+
+P {  
+    color: green;
+    background-color: antiquewhite;  
+    width: 50%;
+    height: 250px;
+    margin: 20px;
+
+}
+   
+#numBox {
+    background-color: darkseagreen;
+    width: 35%;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+#counterBox {
+    background-color: aquamarine;
+    width: 35%;
+    margin: 20px;
+    
+}
+
+#scoreBox {
+    background-color: teal;
+    width: 35%;
+    margin: 20px;
+}
+
+#crysBox {
+    width: 50%;
+    margin-left: 20px;
+}
+    
+#pointsBox {
+    background-color: teal;
+    width: 35%;
+    margin: 20px;
+    padding: 20px;
+
+}
