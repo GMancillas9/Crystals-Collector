@@ -19,6 +19,7 @@ var num2 = Math.floor(Math.random() * 11 + 1);
 var num3 = Math.floor(Math.random() * 11 + 1);
 var num4 = Math.floor(Math.random() * 11 + 1);
 
+var userScore;
 
 $('#crys1').on('click', function () {
     userScore = userScore + num1;
